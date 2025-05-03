@@ -19,7 +19,7 @@ const DropdownMessage = () => {
                         setNotifying(false);
                         setDropdownOpen(!dropdownOpen);
                     }}
-                    className="relative flex size-8.5 items-center justify-center rounded-full border-[0.5px] border-stroke bg-gray hover:text-primary-600 dark:border-strokedark dark:bg-meta-4 dark:text-white"
+                    className="relative flex size-8.5 items-center justify-center rounded-full border-[0.5px] border-stroke bg-gray hover:text-slate-600 dark:border-strokedark dark:bg-meta-4 dark:text-white"
                     href="/"
                 >
                     <span

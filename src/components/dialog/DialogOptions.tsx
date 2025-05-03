@@ -11,7 +11,7 @@ const DialogOptions = () => {
             <div className="flex flex-col gap-[6px] pl-[24px]">
                 <p className="text-text-sm font-semibold">1. Reset Password:</p>
                 <p className="gap-[10px] px-[14px] text-text-sm font-medium">
-                    Click <b className="text-primary-600">Forgot Password</b> to
+                    Click <b className="text-slate-600">Forgot Password</b> to
                     start the password reset process.
                 </p>
             </div>

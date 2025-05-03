@@ -26,14 +26,14 @@ const Avatar = ({ size, type, name, image, loading }: Props) => {
               : 'text-text-xxl';
     return (
         <div
-            className={`relative inline-flex size-21 items-center justify-center overflow-hidden rounded-full bg-primary-100 ${avatarSize}`}
+            className={`relative inline-flex size-21 items-center justify-center overflow-hidden rounded-full bg-slate-100 ${avatarSize}`}
         >
             {loading && (
                 <div className="absolute z-999 size-full bg-neutral-100/80">
                     <div role="status" className="size-full content-center">
                         <svg
                             aria-hidden="true"
-                            className="inline size-8 animate-spin fill-primary-600 text-neutral-400"
+                            className="inline size-8 animate-spin fill-slate-600 text-neutral-400"
                             viewBox="0 0 100 101"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"

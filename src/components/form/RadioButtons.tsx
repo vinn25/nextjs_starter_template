@@ -11,13 +11,13 @@ const RadioButtons = ({ key, value, name, label, ...props }: Props) => {
     return (
         <div key={key} className="w-full text-text-sm font-medium">
             <span>
-                <div className="flex w-full items-center rounded-md p-2 hover:cursor-pointer hover:bg-primary-50">
+                <div className="flex w-full items-center rounded-md p-2 hover:cursor-pointer hover:bg-slate-50">
                     <input
                         type="radio"
                         id={value}
                         name={name}
                         value={value}
-                        className="mr-3 size-4 accent-primary-600 hover:cursor-pointer"
+                        className="mr-3 size-4 accent-slate-600 hover:cursor-pointer"
                         {...props}
                     />
                     <label

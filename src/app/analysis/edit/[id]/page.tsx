@@ -1,6 +1,6 @@
 import React from 'react';
 import DefaultLayout from '@/components/layout/DefaultLayout';
-import EditProject from '@/components/ui/project/edit/LayoutEditProject';
+import EditProject from '@/components/ui/schedule/edit/LayoutEditProject';
 
 // { params }: { params: { id: string } }
 const EditProjectPage = () => {

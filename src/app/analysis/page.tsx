@@ -1,5 +1,5 @@
 import DefaultLayout from '@/components/layout/DefaultLayout';
-import LayoutProject from '@/components/ui/project/LayoutProject';
+import LayoutProject from '@/components/ui/schedule/LayoutProject';
 import React from 'react';
 
 const Project = () => {

@@ -40,19 +40,19 @@ const Buttons = ({
     // color
     const containedColor =
         color === 'primary'
-            ? 'bg-primary-600 hover:border-primary-600 hover:bg-primary-700'
+            ? 'bg-slate-600 hover:border-slate-600 hover:bg-slate-700'
             : color === 'danger'
               ? 'bg-danger-600 hover:border-danger-600 hover:bg-danger-700'
               : 'bg-neutral-600 hover:border-neutral-600 hover:bg-neutral-700';
     const textColor =
         color === 'primary'
-            ? 'text-primary-600'
+            ? 'text-slate-600'
             : color === 'danger'
               ? 'text-danger-600'
               : 'text-neutral-600';
     const outlineColor =
         color === 'primary'
-            ? 'border-primary-600 text-primary-600 hover:bg-primary-50'
+            ? 'border-slate-600 text-slate-600 hover:bg-slate-50'
             : color === 'danger'
               ? 'border-danger-600 text-danger-600 hover:bg-danger-50'
               : 'border-neutral-600 text-neutral-600 hover:bg-neutral-50';
@@ -83,7 +83,7 @@ const Buttons = ({
         </button>
     ) : variant === 'text' ? (
         <button
-            className={`flex items-center justify-center gap-2 rounded-md border-transparent bg-transparent ${textColor} hover:bg-primary-50 ${textSize} ${paddingSize} ${fullWidth ? 'w-full' : 'w-auto'}`}
+            className={`flex items-center justify-center gap-2 rounded-md border-transparent bg-transparent ${textColor} hover:bg-slate-50 ${textSize} ${paddingSize} ${fullWidth ? 'w-full' : 'w-auto'}`}
             type={
                 type === 'button'
                     ? 'button'

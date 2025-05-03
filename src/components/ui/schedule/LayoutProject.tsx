@@ -2,8 +2,8 @@
 
 import Alert from '@/components/alert/Alert';
 import Pagination from '@/components/Pagination';
-import FilterProject from '@/components/ui/project/FilterProject';
-import TableListProject from '@/components/ui/project/TableListProject';
+import FilterProject from '@/components/ui/schedule/FilterProject';
+import TableListProject from '@/components/ui/schedule/TableListProject';
 import { Reducers } from '@/redux/types';
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';

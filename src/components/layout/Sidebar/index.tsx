@@ -6,7 +6,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-import LogoImage from '@/assets/logo-kadence-rectangle.svg';
+import LogoImage from '/home/vinn_25/Documents/Projects/Starter_Template/nextjs_starter_template/public/vercel.svg';
 import SidebarAdmin from '@/components/layout/Sidebar/SidebarAdmin';
 // import LogoImageSquare from '@/assets/logo-kadence-square.svg';
 import type { Reducers } from '@/redux/types';

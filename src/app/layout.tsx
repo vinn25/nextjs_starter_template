@@ -6,8 +6,8 @@ import { ReduxProvider } from '@/redux/provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'Kadence Indonesia | KTP Checker',
-    description: 'KTP Checker | Kadence Indonesia',
+    title: 'Starter Template',
+    description: 'Nextjs Starter Template',
 };
 
 export default function RootLayout({
@@ -17,11 +17,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <link
-                rel="icon"
-                href="https://kadence-internal-tools.s3.ap-southeast-3.amazonaws.com/assets/logo/kadence-square.svg"
-                sizes="any"
-            />
+            <link rel="icon" href="/" sizes="any" />
             <body className={inter.className}>
                 <ReduxProvider>{children}</ReduxProvider>
             </body>

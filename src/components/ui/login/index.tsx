@@ -7,7 +7,6 @@ import { Icon } from '@iconify/react/dist/iconify.js';
 import Image from 'next/image';
 import * as Yup from 'yup';
 
-import LogoImage from '@/assets/logo/logo-kadence-dark-rectangle.png';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Alert from '@/components/alert/Alert';
@@ -58,7 +57,7 @@ const LoginLayout = () => {
     });
     const { errors, handleSubmit, touched } = formik;
     return (
-        <div className="flex max-h-screen min-h-screen min-w-full max-w-full flex-col items-center justify-center bg-white bg-login-pattern bg-cover bg-right-bottom bg-no-repeat font-Montserrat">
+        <div className="flex max-h-screen min-h-screen min-w-full max-w-full flex-col items-center justify-center bg-slate-500 font-Montserrat">
             {authState?.actions?.error && (
                 <div className="fixed top-5">
                     <Alert
@@ -68,12 +67,12 @@ const LoginLayout = () => {
                 </div>
             )}
             <div className="w-full max-w-[483px] rounded-2xl bg-white px-[32px] py-[42px] text-center shadow">
-                <div className="flex items-center justify-center">
+                {/* <div className="flex items-center justify-center">
                     <Image src={LogoImage} alt="Logo" width={180} />
-                </div>
+                </div> */}
                 <div className="mt-5">
                     <h1 className="text-title-sm font-semibold text-black">
-                        KTP Checker
+                        Login Page
                     </h1>
                     <p className="text-text-lg text-black">
                         Login into your account

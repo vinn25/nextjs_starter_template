@@ -13,7 +13,7 @@ const ButtonText = ({ text, size, color, loading, type, ...props }: Props) => {
     const textSize = size === 'sm' ? 'text-sm' : 'text-md';
     const textColor =
         color === 'primary'
-            ? 'text-primary-600'
+            ? 'text-slate-600'
             : color === 'danger'
               ? 'text-danger-600'
               : 'text-neutral-600';

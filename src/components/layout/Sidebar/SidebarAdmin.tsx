@@ -13,7 +13,7 @@ const SidebarAdmin = (props: {
             name: 'MENU',
             menuItems: [
                 {
-                    id: 'identity',
+                    id: 'home',
                     icon: (
                         <Icon
                             icon="fluent:card-ui-24-regular"
@@ -21,11 +21,11 @@ const SidebarAdmin = (props: {
                             height="24"
                         />
                     ),
-                    label: 'Identity',
-                    route: '/identity',
+                    label: 'Home',
+                    route: '/',
                 },
                 {
-                    id: 'projecet',
+                    id: 'member',
                     icon: (
                         <Icon
                             icon="fluent:card-ui-24-regular"
@@ -33,11 +33,11 @@ const SidebarAdmin = (props: {
                             height="24"
                         />
                     ),
-                    label: 'Project',
-                    route: '/project',
+                    label: 'Member',
+                    route: '/member',
                 },
                 {
-                    id: 'respondent',
+                    id: 'schedule',
                     icon: (
                         <Icon
                             icon="fluent:card-ui-24-regular"
@@ -45,8 +45,20 @@ const SidebarAdmin = (props: {
                             height="24"
                         />
                     ),
-                    label: 'Respondent',
-                    route: '/respondent',
+                    label: 'Schedule',
+                    route: '/schedule',
+                },
+                {
+                    id: 'analysis',
+                    icon: (
+                        <Icon
+                            icon="fluent:card-ui-24-regular"
+                            width="24"
+                            height="24"
+                        />
+                    ),
+                    label: 'Data Analysis',
+                    route: '/analysis',
                 },
             ],
         },

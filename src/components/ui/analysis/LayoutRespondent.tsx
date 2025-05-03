@@ -1,8 +1,8 @@
 'use client';
 
 import Pagination from '@/components/Pagination';
-import FilterRespondent from '@/components/ui/respondent/FilterRespondent';
-import TableListRespondent from '@/components/ui/respondent/TableListRespondent';
+import FilterRespondent from '@/components/ui/analysis/FilterRespondent';
+import TableListRespondent from '@/components/ui/analysis/TableListRespondent';
 import React, { useState } from 'react';
 
 const LayoutRespondent = () => {

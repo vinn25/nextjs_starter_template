@@ -24,7 +24,7 @@ const SidebarItemCollapse = ({ item, pageName, setPageName }: any) => {
     const isItemActive = isActive(item);
 
     return (
-        <li className="rounded-lg hover:bg-primary-300/20">
+        <li className="rounded-lg hover:bg-slate-300/20">
             {/* <Tooltip
                 content={item.label}
                 withArrow
@@ -34,7 +34,7 @@ const SidebarItemCollapse = ({ item, pageName, setPageName }: any) => {
             <Link
                 href={item.route}
                 onClick={handleClick}
-                className={`${isItemActive ? 'bg-primary-300/20 text-primary-300' : ''} group relative flex items-center gap-2.5 rounded-lg px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:text-primary-300`}
+                className={`${isItemActive ? 'bg-slate-300/20 text-slate-300' : ''} group relative flex items-center gap-2.5 rounded-lg px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:text-slate-300`}
             >
                 {item.icon}
             </Link>

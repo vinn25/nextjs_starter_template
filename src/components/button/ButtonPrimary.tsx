@@ -35,7 +35,7 @@ const ButtonPrimary = ({
               : 'px-[18px] py-[10px]';
     return variant === 'contained' ? (
         <button
-            className={`flex justify-center gap-2 border border-transparent bg-primary-600 ${textSize} ${paddingSize} ${fullWidth && 'w-full'} rounded-md font-normal text-white hover:border-primary-600 hover:bg-primary-700`}
+            className={`flex justify-center gap-2 border border-transparent bg-slate-600 ${textSize} ${paddingSize} ${fullWidth && 'w-full'} rounded-md font-normal text-white hover:border-slate-600 hover:bg-slate-700`}
             type={
                 type === 'button'
                     ? 'button'
@@ -59,7 +59,7 @@ const ButtonPrimary = ({
         </button>
     ) : variant === 'text' ? (
         <button
-            className={`flex justify-center gap-2 rounded-md border-transparent bg-transparent text-primary-600 hover:bg-primary-50 ${textSize} ${paddingSize} ${fullWidth ? 'w-full' : 'w-auto'}`}
+            className={`flex justify-center gap-2 rounded-md border-transparent bg-transparent text-slate-600 hover:bg-slate-50 ${textSize} ${paddingSize} ${fullWidth ? 'w-full' : 'w-auto'}`}
             type={
                 type === 'button'
                     ? 'button'
@@ -83,7 +83,7 @@ const ButtonPrimary = ({
         </button>
     ) : (
         <button
-            className={`flex justify-center gap-2 rounded-md border border-primary-600 bg-transparent text-primary-600 hover:bg-primary-50 ${textSize} ${paddingSize} ${fullWidth && 'w-full'}`}
+            className={`flex justify-center gap-2 rounded-md border border-slate-600 bg-transparent text-slate-600 hover:bg-slate-50 ${textSize} ${paddingSize} ${fullWidth && 'w-full'}`}
             type={
                 type === 'button'
                     ? 'button'

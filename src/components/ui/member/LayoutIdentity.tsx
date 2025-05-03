@@ -1,8 +1,8 @@
 'use client';
 
 import Pagination from '@/components/Pagination';
-import FilterIdentity from '@/components/ui/identity/FilterIdentity';
-import TableListIdentity from '@/components/ui/identity/TableListIdentity';
+import FilterIdentity from '@/components/ui/member/FilterIdentity';
+import TableListIdentity from '@/components/ui/member/TableListIdentity';
 import React, { useState } from 'react';
 
 const LayoutIdentity = () => {

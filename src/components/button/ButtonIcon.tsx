@@ -8,7 +8,7 @@ interface Props {
 const ButtonIcon = ({ icon, onClick }: Props) => {
     return (
         <button
-            className="flex gap-2 border-transparent bg-transparent text-primary-600"
+            className="flex gap-2 border-transparent bg-transparent text-slate-600"
             type="button"
             onClick={onClick}
             aria-label="button-icon"

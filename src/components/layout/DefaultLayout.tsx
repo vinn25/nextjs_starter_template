@@ -34,41 +34,41 @@ export default function DefaultLayout({
     }, [dispatch]);
 
     return (
-        <AuthWrapper>
-            <div>
-                {/* <!-- ===== Page Wrapper Start ===== --> */}
-                <div className="flex min-h-screen bg-neutral-50 font-Montserrat">
-                    {/* <!-- ===== Sidebar Start ===== --> */}
-                    <Sidebar
+        // <AuthWrapper>
+        <div>
+            {/* <!-- ===== Page Wrapper Start ===== --> */}
+            <div className="flex min-h-screen bg-neutral-50 font-Montserrat">
+                {/* <!-- ===== Sidebar Start ===== --> */}
+                <Sidebar
+                    sidebarOpen={sidebarOpen}
+                    setSidebarOpen={setSidebarOpen}
+                />
+                {/* <!-- ===== Sidebar End ===== --> */}
+
+                {/* <!-- ===== Content Area Start ===== --> */}
+                <div
+                    className={`relative flex flex-1 flex-col ${sidebarOpen ? 'ml-22' : 'ml-72.5'} duration-300 ease-linear`}
+                >
+                    {/* <!-- ===== Header Start ===== --> */}
+                    <Header
                         sidebarOpen={sidebarOpen}
                         setSidebarOpen={setSidebarOpen}
+                        title={title}
                     />
-                    {/* <!-- ===== Sidebar End ===== --> */}
+                    {/* <!-- ===== Header End ===== --> */}
 
-                    {/* <!-- ===== Content Area Start ===== --> */}
-                    <div
-                        className={`relative flex flex-1 flex-col ${sidebarOpen ? 'ml-22' : 'ml-72.5'} duration-300 ease-linear`}
-                    >
-                        {/* <!-- ===== Header Start ===== --> */}
-                        <Header
-                            sidebarOpen={sidebarOpen}
-                            setSidebarOpen={setSidebarOpen}
-                            title={title}
-                        />
-                        {/* <!-- ===== Header End ===== --> */}
-
-                        {/* <!-- ===== Main Content Start ===== --> */}
-                        <main>
-                            <div className="mx-auto max-w-screen-2xl bg-neutral-50 px-6 pb-15 pt-6">
-                                {children}
-                            </div>
-                        </main>
-                        {/* <!-- ===== Main Content End ===== --> */}
-                    </div>
-                    {/* <!-- ===== Content Area End ===== --> */}
+                    {/* <!-- ===== Main Content Start ===== --> */}
+                    <main>
+                        <div className="mx-auto max-w-screen-2xl bg-neutral-50 px-6 pb-15 pt-6">
+                            {children}
+                        </div>
+                    </main>
+                    {/* <!-- ===== Main Content End ===== --> */}
                 </div>
-                {/* <!-- ===== Page Wrapper End ===== --> */}
+                {/* <!-- ===== Content Area End ===== --> */}
             </div>
-        </AuthWrapper>
+            {/* <!-- ===== Page Wrapper End ===== --> */}
+        </div>
+        // </AuthWrapper>
     );
 }

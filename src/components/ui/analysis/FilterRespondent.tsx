@@ -108,7 +108,7 @@ const FilterRespondent = ({ params, setParams }: Props) => {
             </div>
             <div />
             <div className="float-right justify-self-end">
-                <Link href="./respondent/create">
+                <Link href="./schedule/create">
                     <Buttons
                         text="New Respondent"
                         icon="fluent:add-24-regular"

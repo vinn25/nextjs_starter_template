@@ -111,7 +111,7 @@ const FilterProject = ({ params, setParams }: Props) => {
             </div>
             <div />
             <div className="float-right justify-self-end">
-                <Link href="./project/create">
+                <Link href="./analysis/create">
                     <Buttons
                         text="New Project"
                         icon="fluent:add-24-regular"
