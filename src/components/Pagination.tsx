@@ -64,7 +64,7 @@ const Pagination = ({
     return (
         <div className="flex items-center justify-between">
             <div className="flex items-center text-text-sm">
-                <div>Rows Per Page</div>
+                <div className="text-neutral">Rows Per Page</div>
                 <div className="ml-2 flex w-16">
                     <SelectOptions
                         options={optionPagination}

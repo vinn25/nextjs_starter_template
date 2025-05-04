@@ -26,7 +26,7 @@ const DialogForm = ({
                         <div className="relative w-[544px]">
                             <div className="relative flex w-full flex-col rounded-lg border-0 bg-white shadow-lg outline-none focus:outline-none">
                                 <div className="flex items-start justify-between rounded-t border-b border-solid border-neutral-300 p-5">
-                                    <span className="">
+                                    <span className="text-neutral">
                                         <div className="w-full text-text-lg font-semibold">
                                             {title}
                                         </div>

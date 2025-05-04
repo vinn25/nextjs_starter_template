@@ -131,7 +131,7 @@ const LayoutEditProject = () => {
                         />
                     )}
                 </div>
-                <div className="mb-6 flex items-start justify-between">
+                <div className="text-neutral mb-6 flex items-start justify-between">
                     <span>
                         <div className="w-full text-title-xs font-semibold">
                             Edit Project

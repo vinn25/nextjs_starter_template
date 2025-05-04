@@ -40,19 +40,19 @@ const Buttons = ({
     // color
     const containedColor =
         color === 'primary'
-            ? 'bg-slate-600 hover:border-slate-600 hover:bg-slate-700'
+            ? 'bg-neutral hover:border-neutral hover:bg-slate-700'
             : color === 'danger'
               ? 'bg-danger-600 hover:border-danger-600 hover:bg-danger-700'
               : 'bg-neutral-600 hover:border-neutral-600 hover:bg-neutral-700';
     const textColor =
         color === 'primary'
-            ? 'text-slate-600'
+            ? 'text-neutral'
             : color === 'danger'
               ? 'text-danger-600'
               : 'text-neutral-600';
     const outlineColor =
         color === 'primary'
-            ? 'border-slate-600 text-slate-600 hover:bg-slate-50'
+            ? 'border-neutral text-neutral hover:bg-slate-50'
             : color === 'danger'
               ? 'border-danger-600 text-danger-600 hover:bg-danger-50'
               : 'border-neutral-600 text-neutral-600 hover:bg-neutral-50';

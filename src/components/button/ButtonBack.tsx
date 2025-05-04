@@ -4,7 +4,7 @@ import React from 'react';
 const ButtonBack = () => {
     return (
         <button
-            className="flex size-10 justify-center rounded-full hover:bg-slate-50"
+            className="hover:bg-neutral text-neutral flex size-10 justify-center rounded-full hover:text-white"
             type="button"
             onClick={() => window.history.back()}
             aria-label="back-button"

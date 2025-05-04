@@ -80,7 +80,7 @@ const DropdownUser = () => {
                         <li className="hover:bg-neutral-100">
                             <Link
                                 href="/"
-                                className="flex items-center gap-4 px-[14px] py-[10px] text-text-xs font-medium duration-300 ease-in-out"
+                                className="text-neutral flex items-center gap-4 px-[14px] py-[10px] text-text-xs font-medium duration-300 ease-in-out"
                             >
                                 {/* <Person16Regular /> */}
                                 <Icon
@@ -96,7 +96,7 @@ const DropdownUser = () => {
                                 onClick={() => {
                                     dispatch<any>(logoutUser());
                                 }}
-                                href="/"
+                                href="/login"
                                 className="flex items-center gap-4 px-[14px] py-[10px] text-text-xs font-medium text-danger-600 duration-300 ease-in-out"
                                 type="button"
                             >

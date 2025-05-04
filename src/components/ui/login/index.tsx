@@ -29,7 +29,7 @@ const LoginLayout = () => {
             }, 401);
         }
         if (authState.isLogin) {
-            redirect('/identity');
+            redirect('/');
         }
     }, [authState?.actions?.error, authState.isLogin, dispatch]);
 

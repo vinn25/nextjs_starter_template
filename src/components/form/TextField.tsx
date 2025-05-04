@@ -21,7 +21,7 @@ const TextField = ({
     return (
         <div>
             <span
-                className={`inline-flex gap-1 ${fullWidth && 'w-full'} rounded-[4px] border ${error ? 'border-danger-600' : 'border-[#cfcfcf]'} p-2 transition-all focus-within:border-b-2 focus-within:border-b-slate-600 focus-visible:outline-none`}
+                className={`text-neutral inline-flex gap-1 ${fullWidth && 'w-full'} rounded-[4px] border ${error ? 'border-danger-600' : 'border-[#cfcfcf]'} p-2 transition-all focus-within:border-b-2 focus-within:border-b-slate-600 focus-visible:outline-none`}
             >
                 {contentBefore && (
                     <span className="m-auto box-border">{contentBefore}</span>

@@ -18,7 +18,7 @@ const config = {
                 bodydark: '#AEB7C0',
                 bodydark1: '#DEE4EE',
                 bodydark2: '#8A99AF',
-                neutral: {
+                neutral1: {
                     50: '#F8F8F8',
                     100: '#E4E4E4',
                     200: '#CFCFCF',
@@ -30,7 +30,7 @@ const config = {
                     800: '#4F4F4F',
                     900: '#2C2C2C',
                 },
-                primary: {
+                primary1: {
                     50: '#F0F9E7',
                     100: '#E2F4D1',
                     200: '#D1EDB7',
@@ -42,7 +42,7 @@ const config = {
                     800: '#446722',
                     900: '#2F4A16',
                 },
-                secondary: {
+                secondary1: {
                     50: '#FFF7EC',
                     100: '#FFE9CC',
                     200: '#FFD297',
@@ -117,6 +117,33 @@ const config = {
                     800: '#856A00',
                     900: '#5C4900',
                 },
+                primary: {
+                    DEFAULT: '#4f46e5', // Indigo-600
+                    light: '#6366f1',   // Indigo-500
+                    dark: '#4338ca',    // Indigo-700
+                },
+                secondary: {
+                    DEFAULT: '#0ea5e9', // Sky-500
+                    light: '#38bdf8',   // Sky-400
+                    dark: '#0284c7',    // Sky-600
+                },
+                accent: {
+                    DEFAULT: '#f97316', // Orange-500
+                    light: '#fb923c',   // Orange-400
+                    dark: '#ea580c',    // Orange-600
+                },
+                neutral: {
+                    DEFAULT: '#64748b', // Slate-500
+                    light: '#94a3b8',   // Slate-400
+                    dark: '#475569',    // Slate-600
+                },
+                background: '#f8fafc',  // light background
+                foreground: '#1e293b',  // dark text
+                muted: '#e2e8f0',       // for borders, etc.
+                //   danger: colors.red[500],
+                //   success: colors.green[500],
+                //   warning: colors.yellow[500],
+                //   info: colors.blue[500],
             },
             fontSize: {
                 'title-xxl': ['72px', '90px'],

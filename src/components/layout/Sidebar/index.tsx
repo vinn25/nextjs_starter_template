@@ -6,7 +6,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-import LogoImage from '/home/vinn_25/Documents/Projects/Starter_Template/nextjs_starter_template/public/vercel.svg';
+import LogoImage from '/home/vinn_25/Documents/Projects/Starter_Template/nextjs_starter_template/public/next.svg';
 import SidebarAdmin from '@/components/layout/Sidebar/SidebarAdmin';
 // import LogoImageSquare from '@/assets/logo-kadence-square.svg';
 import type { Reducers } from '@/redux/types';
@@ -24,7 +24,7 @@ const Sidebar = (props: {
     const authState = useSelector((state: Reducers) => state.auth);
     return (
         <aside
-            className={`fixed left-0 top-0 z-9999 flex h-screen ${props.sidebarOpen ? 'w-22' : 'w-72.5'} translate-x-0 flex-col bg-[#2C2C2C] duration-300 ease-linear`}
+            className={`fixed left-0 top-0 z-9999 flex h-screen ${props.sidebarOpen ? 'w-22' : 'w-72.5'} bg-neutral translate-x-0 flex-col duration-300 ease-linear`}
         >
             {/* <!-- SIDEBAR HEADER --> */}
             <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">

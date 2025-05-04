@@ -65,7 +65,7 @@ const CreateVendor = ({ setOpenFormVendor }: Props) => {
             <FormikProvider value={formik}>
                 <Form noValidate onSubmit={handleSubmit} className="w-full">
                     <div className="mb-5 w-full gap-5">
-                        <div className="w-full text-text-sm">
+                        <div className="text-neutral w-full text-text-sm">
                             Name<sup className="text-red">*</sup>
                         </div>
                         <div className="w-full">
@@ -81,7 +81,7 @@ const CreateVendor = ({ setOpenFormVendor }: Props) => {
                         </div>
                     </div>
                     <div className="my-5 w-full gap-5">
-                        <div className="w-full text-text-sm">
+                        <div className="text-neutral w-full text-text-sm">
                             Type<sup className="text-red">*</sup>
                         </div>
                         <div className="w-full">

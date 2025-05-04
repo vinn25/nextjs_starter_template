@@ -41,7 +41,7 @@ const Header = (props: {
                         }}
                     />
                     {isBack && <ButtonBack />}
-                    <h4 className="text-text-xl font-semibold">
+                    <h4 className="text-neutral text-text-xl font-semibold">
                         {props.title}
                     </h4>
                 </div>

@@ -35,7 +35,7 @@ const TextFieldPassword = ({
                 <input
                     {...props}
                     type={visible ? 'text' : 'password'}
-                    className={`${fullWidth && 'w-full'} focus-visible:outline-none`}
+                    className={`${fullWidth && 'w-full'} text-neutral focus-visible:outline-none`}
                 />
                 <ButtonIcon
                     icon={
