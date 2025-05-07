@@ -320,7 +320,7 @@ const config = {
             },
             backgroundImage: {
                 'login-pattern':
-                    'url("https://kadence-internal-tools.s3.ap-southeast-3.amazonaws.com/assets/images/bg-login2.svg")',
+                    '',
             },
             backgroundSize: {
                 auto: 'auto',

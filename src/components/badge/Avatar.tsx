@@ -54,7 +54,7 @@ const Avatar = ({ size, type, name, image, loading }: Props) => {
                 {type === 'image' && image ? (
                     <Image
                         src={image}
-                        alt="kadence avatar"
+                        alt="avatar"
                         width={size === 'sm' ? 36 : size === 'md' ? 64 : 120}
                         height={size === 'sm' ? 36 : size === 'md' ? 64 : 120}
                     />

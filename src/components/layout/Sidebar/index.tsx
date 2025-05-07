@@ -8,7 +8,6 @@ import { useSelector } from 'react-redux';
 
 import LogoImage from '@/app/next.svg';
 import SidebarAdmin from '@/components/layout/Sidebar/SidebarAdmin';
-// import LogoImageSquare from '@/assets/logo-kadence-square.svg';
 import type { Reducers } from '@/redux/types';
 import { ButtonIcon } from '@/components/button';
 

@@ -6,10 +6,7 @@ const nextConfig = {
         dirs: ['src', 'test'],
     },
     images: {
-        domains: [
-            'dev-kadence-internal-tools.s3.ap-southeast-3.amazonaws.com',
-            'kadence-internal-tools.s3.ap-southeast-3.amazonaws.com',
-        ],
+        domains: ['', ''],
     },
 };
 

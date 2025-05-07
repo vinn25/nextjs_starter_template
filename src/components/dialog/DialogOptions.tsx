@@ -21,7 +21,7 @@ const DialogOptions = () => {
                     If you&apos;re unable to reset your password, contact the
                     administrator at{' '}
                     <b>
-                        <i>admin@kadence.id</i>
+                        <i>admin@example.id</i>
                     </b>{' '}
                     for assistance
                 </p>

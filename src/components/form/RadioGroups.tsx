@@ -43,7 +43,7 @@
 //                             <div className="flex gap-3">
 //                                 <Image
 //                                     src={item.country}
-//                                     alt="Kadence-country"
+//                                     alt="country"
 //                                     width={16}
 //                                 />
 //                                 {item.label}

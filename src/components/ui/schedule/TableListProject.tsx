@@ -81,8 +81,8 @@ const TableListProject = ({ params }: Props) => {
             >
                 <div className="flex-row text-center">
                     <Image
-                        src="https://kadence-internal-tools.s3.ap-southeast-3.amazonaws.com/assets/images/delete-workspace.svg"
-                        alt="Kadence Image"
+                        src=""
+                        alt="Image"
                         className="m-auto"
                         width={250}
                         height={100}
