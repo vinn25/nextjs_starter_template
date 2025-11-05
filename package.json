@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "start:dev": "next dev --port 9900",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
-    "prisma:generate": "prisma generate",
-    "postinstall": "prisma generate",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "lint:staged": "lint-staged",
@@ -15,7 +13,6 @@
   },
   "dependencies": {
     "@iconify/react": "^5.1.0",
-    "@prisma/client": "^6.8.2",
     "@radix-ui/react-tabs": "^1.1.12",
     "@react-oauth/google": "^0.12.1",
     "@reduxjs/toolkit": "^2.5.0",
@@ -94,7 +91,6 @@
     "postcss": "^8",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.5",
-    "prisma": "^6.8.2",
     "stop-only": "^3.3.2",
     "storybook": "^8.2.2",
     "tailwindcss": "^3.4.1",
