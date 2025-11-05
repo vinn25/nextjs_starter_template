@@ -2,19 +2,17 @@
 *A web application to calculate your calorie intake, build with Next.js + TypeScript + Tailwind CSS.*
 
 ## 🔍 Table of Contents  
-- [About the Project](#about-the-project)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Development](#development)  
-  - [Production Build](#production-build)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+- [NutriTrack – Calorie \& Nutrition Calculator Web Application](#nutritrack--calorie--nutrition-calculator-web-application)
+  - [🔍 Table of Contents](#-table-of-contents)
+  - [📝 About the Project](#-about-the-project)
+  - [✨ Features](#-features)
+  - [🧰 Tech Stack](#-tech-stack)
+  - [🚀 Getting Started](#-getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+- [Clone the repo](#clone-the-repo)
+- [Install dependencies](#install-dependencies)
+- [or](#or)
 
 ## 📝 About the Project  
 NutriTrack is a web application designed for small to medium gym management or individual users who want to track their calorie intake and nutrition. It offers:  
@@ -37,8 +35,7 @@ The project aligns with your (the user’s) final-year academic project: “Peng
 - **Frontend**: Next.js (React framework) with TypeScript  
 - **Styling**: Tailwind CSS  
 - **State Management**: Redux  
-- **Backend (planned/optional)**: API routes within Next.js acting as serverless endpoints or standard Node.js backend  
-- **Database (optional)**: Prisma + PostgreSQL or another SQL store  
+- **Backend (planned/optional)**: API routes within Next.js acting as serverless endpoints or standard Node.js backend
 - **Deployment**: Vercel (or similar) for easy hosting and CI/CD  
 
 ## 🚀 Getting Started  
